@@ -1,0 +1,5 @@
+.venv
+pip-selfcheck.json
+config.pyc
+client_secrets.json
+credentials.txt
