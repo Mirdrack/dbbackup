@@ -1,16 +1,16 @@
 # DBbackup
 
 ## Getting the Google Drive API Keys
-1. Go to APIs Console and make your own project.
-2. Search for ‘Google Drive API’, select the entry, and click ‘Enable’.
-3. Select ‘Credentials’ from the left menu, click ‘Create Credentials’, select ‘OAuth client ID’.
-4. Now, the product name and consent screen need to be set -> click ‘Configure consent screen’ and follow the instructions. Once finished:
-    - Select ‘Application type’ to be Web application.
+1. Go to **APIs Console** and make your own project.
+2. Search for **Google Drive API**, select the entry, and click **Enable**.
+3. Select **Credentials** from the left menu, click **‘Create Credentials’**, select **‘OAuth client ID’**.
+4. Now, the product name and consent screen need to be set -> click **Configure consent screen** and follow the instructions. Once finished:
+    - Select **Application type** to be Web application.
     - Enter an appropriate name.
-    - http://localhost:8080 for ‘Authorized JavaScript origins’.
-    - http://localhost:8080/ for ‘Authorized redirect URIs’.
-    - ‘Save’.
-5. Click ‘Download JSON’ on the right side of Client ID to download client_secret_<really long ID>.json.
+    - http://localhost:8080 for **Authorized JavaScript origins**.
+    - http://localhost:8080/ for **Authorized redirect URIs**.
+    - **Save**.
+5. Click **Download JSON*** on the right side of Client ID to download client_secret_<really long ID>.json.
 
 ## Installation
 1. Clone the repository `git clone https://github.com/Mirdrack/dbbackup.git`
@@ -21,7 +21,7 @@
 
 ## Initialize first time
 You have to install the project on your local computer to setup your account permissions to interact with the application
-After install and setup the client_secrets.json file run **initializer.py** with `python initializer.py` on your local computer, this will prompt a browser window asking for the necessary permissions from your google account.
+After install and setup the **client_secrets.json** file run **initializer.py** with `python initializer.py` on your local computer, this will prompt a browser window asking for the necessary permissions from your google account.
 
 ## Testing upload (optional on local environment)
 You can test if **Google Drive** and your application are well configured running the test upload file with `python test-upload.py` is highly recommended check this if you are on your prodction server.
